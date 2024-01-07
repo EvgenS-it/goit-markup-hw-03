@@ -195,9 +195,13 @@ p {
 }
 
 .benefits-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .benefits-item {
+  max-width: 264px;
 }
 
 .benefits-subtitle {
@@ -206,6 +210,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .benefits-item-text {
