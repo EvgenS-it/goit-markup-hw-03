@@ -337,10 +337,12 @@ p {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
-.footer-container {
-  padding: 100px 15px;
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-part-footer {
@@ -348,7 +350,6 @@ p {
 }
 
 .footer-text {
-  margin-top: 17px;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
