@@ -301,17 +301,22 @@ p {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
   max-width: 360px;
-  border: 1px solid #e7e9fc;
   background: #fff;
 }
 
 .portfolio-img {
-  margin-bottom: 32px;
+}
+
+.portfolio-item-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-subtitle {
@@ -321,7 +326,6 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  padding: 0 16px;
 }
 
 .portfolio-item-text {
@@ -329,8 +333,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  padding: 0 16px;
 }
 
 /** ========== PORTFOLIO END ==========  */
